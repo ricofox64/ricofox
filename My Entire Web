@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<style>
+    body {
+    background-color: #27ceda;
+    color: rgb(68, 19, 131);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    font-size: 20px;
+}
+    </style>
+<style>
+        p {
+            color:darkslategrey
+            text-align: center;
+        }
+    </style>
+<style>
+table, th, td {
+border: 1px solid rgb(6, 105, 19);
+border-collapse: collapse;
+}
+th, td {
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 40px;
+}
+</style>
+<title>My Entire Web</title>
+<body style="background-color:rgb(153, 175, 248);">
+</head>
+
+<body>
+<h1 style="border: 3px solid rgba(235, 100, 23, 0.904);">Felipe's Website</h1>
+
+<p<h2>&#128509;</h2>Welcome to my entire web page based on my lesson.</p>
+
+<address=h1 style="border: 2px solid rgb(243, 37, 22);">
+Written by pisces_man64
+Visit us at:<br>
+www.youtube.com/channel/UCw4e_wyfzalz6n7EIev4A2g<br>
+Box 347, FoxMan Co.<br>
+</address>
+
+<table style="width:100%">
+    <tr>
+      <th>Favorite Films</th>
+      <th>Favorite Shows</th>
+      <th>Favorite Video Games</th>
+    </tr>
+    <tr>
+      <td>Fantasia</td>
+      <td>Breaking Bad</td>
+      <td>GoldenEye (N64)</td>
+    </tr>
+    <tr>
+      <td>The Godfather</td>
+      <td>The Sopranos</td>
+      <td>MarioKart 64 (N64)</td>
+    </tr>
+    <tr>
+      <td>Pulp Fiction</td>
+      <td>The Office</td>
+      <td>Grand Theft Auto: San Andreas</td>
+    </tr>
+    <tr>
+      <td>Eternal Sunshine of the Spotless Mind</td>
+      <td>BoJack Horseman</td>
+      <td>Minecraft</td>
+    </tr>
+    <tr>
+      <td>Y Tu Mama Tambien</td>
+      <td>Regular Show</td>
+      <td>Super Mario World (SNES)</td>
+    </tr>
+    <tr>
+      <td>Terminator 2: Judgment Day</td>
+      <td>Gravity Falls</td>
+      <td>Star Wars: Shadows of the Empire (N64)</td>
+    </tr>
+  </table>
+
+  
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click the Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+
+</html>
